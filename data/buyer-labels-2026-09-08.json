@@ -1,0 +1,3556 @@
+{
+  "label_distribution": [
+    {
+      "avg_confidence": 0.5,
+      "label": "organic_user",
+      "n_buyers": 36802
+    },
+    {
+      "avg_confidence": 0.8,
+      "label": "analytics_bot",
+      "n_buyers": 261
+    },
+    {
+      "avg_confidence": 0.8,
+      "label": "suspected_wash",
+      "n_buyers": 228
+    },
+    {
+      "avg_confidence": 0.7208955223880597,
+      "label": "ai_agent",
+      "n_buyers": 201
+    },
+    {
+      "avg_confidence": 0.8,
+      "label": "developer",
+      "n_buyers": 108
+    },
+    {
+      "avg_confidence": 0.7922093023255814,
+      "label": "self_test",
+      "n_buyers": 86
+    },
+    {
+      "avg_confidence": 0.9,
+      "label": "verifier",
+      "n_buyers": 12
+    },
+    {
+      "avg_confidence": 1.0,
+      "label": "owner_test",
+      "n_buyers": 9
+    }
+  ],
+  "real_vs_wash_30d": {
+    "developer_volume_usdc": 51824.967706,
+    "real_volume_usdc": 739388.062948,
+    "total_tx": 1198396,
+    "total_volume_usdc": 837954.889271,
+    "wash_volume_usdc": 54.272136
+  },
+  "recent_changes_7d": [
+    {
+      "buyer_address": "0x0213cfa7b2ae6680e4af0d89dc94a34906dfc66c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x037799f107aa5696af4fb1a2bff8af99eb3f55bd",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x039e80bf08c06586094e6cb05e2fc5f8ccf8266e",
+      "confidence": 0.7,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x04d193a332f38980ec9a5ec87789009ab55b5dde",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%),organic_user(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x05e1a4f78a53bb8595facf733d52601c297f211a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x05f8e6e8819b06f4a64ccca0f20c0b72c3a1ed41",
+      "confidence": 0.72,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x06806a0ee1e8cf8f9c3267272fd7812ccddd9f13",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x087cababc2fa6eda141c1b1a51a4a94f1c131eac",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x09630f92c1e1623b2b9c287a1faf98f2a1699fc7",
+      "confidence": 0.65,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x09661ccab2565f5ea6f1cd97d7ddad4ca1769fc7",
+      "confidence": 0.72,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x0966a79b155f74a74298e7e9620e024d37899fc7",
+      "confidence": 0.65,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x09680d6ca3eec816d23b8ec671292ba531999fc7",
+      "confidence": 0.72,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x096c9a55ddfd5b5a033ac57dcca7009516599fc7",
+      "confidence": 0.65,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x0de98e661606ecfc448da7a8276dde4de45200c8",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x0232f7c608b9620bb37a47372e40fbb91739e8a2",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%),organic_user(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x3382a101c7a079ec06f253ee0069cc7bb56e8e57",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),ai_agent(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x12c93ca6a4716c4268fe574efe74997c5709c3f4",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x144f69648f9b9aeae3043b9239254297c41f9b56",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x1474c3839897f08a9c08e0bb700cf99fcd46f9a0",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x15197658ff6557ab8f1075241512b036a1294915",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x61608f4437992d6ba9c19e6ba4724d95ea1aa1b3",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%),ai_agent(0%),organic_user(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x15db9f2716dd88e6e529fb038bd3ebe05ad7f04d",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x170d9d961388deac17b0ae5bbe75218fe003fa10",
+      "confidence": 0.7,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x1b205071515667bca455af1b69a83fd91b2769b3",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),ai_agent(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x1b8827b4faebe0590b613c177aa815536cf5db40",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x164b1b73b0c6b12a61825e392875c56ea7f93ed9",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "no_tx_in_window",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x1e3aa1aa619079630e97babf003c0134b4fe9891",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x1ee10700b5b24627afcdd6788d81dde7999c5261",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x1fa7bb7f0f7593fd6eadf657d2995c47b470c36b",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x1fc95aac0b0071e3727d67e71cdebed1330d9168",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x1b71f46247c10272bad3fbf1c7f2c080f7241a61",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x21dcc9579dbdf025e926f31a41136b482fd782fc",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x22df9ec2745720c67f56dc2dc3e23e2c698b1eb4",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x26eb3ad54c12fc7133a2b2b6eddc0692d94ebcea",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(67%),analytics_bot(33%),organic_user(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x24c50cd135d5d62addaf65ac084cd7ee10aa73aa",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x254f23d486732348cff6fff16a4aad8bc1b7a496",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x25b832be84d7923fba1fab0393eccec1590c8114",
+      "confidence": 0.75,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x26e8134ecc3af5cce32f34b03e7bd2f318b25158",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),ai_agent(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x27e26bc62bc8813d31be32e6aa50f08999de9e6e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xce3c6e20aab568dfe60ed99fabd82770c49fcaf9",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),ai_agent(0%),suspected_wash(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x2d320b056ba36348131d1ced97e9b1c26906c9cc",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x2f4a4b9787bfe93ffc1c6b35c644859c8e5317b3",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x2fb5100adc5ebc93e11a35925aec20ff802dea8e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x30a6cb9170bf5dbb9e92614b1bf26a33920a641e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x3162525a66e7ee3483c2b174a179574612e24e71",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x32a32ef9b66322b875b0703cfdc03ac4155b3a6e",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(99%),organic_user(1%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x6a61d348cab00bcea04df9a3c4416d3411412ec2",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),ai_agent(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x35593dab21cc688729204d8b33b442fd9c463f12",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x35dcef6783de6348a4d3c1f24fb4bf53fc07e099",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xb957cd220b8120c192fe4b3874ccc50e62f9d81a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),ai_agent(0%),suspected_wash(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x36c53d4c6c0e5f0d7243075d48c67e4ef29c7a4e",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x381c60355cff1a0a366d30d75a93793752433ba7",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x389dac7050e8b5bb4854cd937aac3bd8b7e20a10",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x39ea4bda7616ac9643e9ee06248f965d3780c7c6",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x39eafa72c34c7ca659c087a08e9cd621d7f647c6",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x3c147ff5eaee0fddb4d527e3bc08c585100b6e16",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x3c17e205e6451a6928f8374af17ea4dd3e4fb64e",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x3d165d42617baab2ef714f5c026f27d3d8ee53f5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x3d1a78ca45d1e8e4c6cf9443c43865691f7613f5",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x444390c8989eb3a912783b07437f49e5a5c8870f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x4468f01c19838ff7b17e9a5d856430e42f6f7c38",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x46916141e0291f34e68cbe73c9d40f6ac17fec29",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xa831042b5b4448e7da41ac4c14d4282b606a09fa",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),ai_agent(0%),suspected_wash(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x4862dac2c03faa8b36a23d176932945193b04940",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x4948affac7c3ada9d635c45d34ed813768f72798",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x4cab767d7f000b03ed74964eea2366fa8916f856",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x49e4712dfe2f4eedd384ab310bb694e8e4cc3772",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x4bbea43dbfce6bbfccafcae400317db484acf8fd",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x512aba20f2b6f6b0543d2f08ff2c102106915170",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x52963a9b443786d3d865e956f7a44652185432ac",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x52aa899454998be5b000ad077a46bbe360f4e497",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x43b5a47197d0894ce5ce61beb83624a764b67ffd",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xce848c7d88e82aef379079fdc0283fc5b8d960f0",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),ai_agent(0%),suspected_wash(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x47b667877942b35f9b10be6d5dfdbe4f8f9161cd",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "no_tx_in_window",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x5748c4d7348b719e63ae3a5a1e6caed595c50c1c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x5798b344333626fee159cf776746f578a903cf2a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x58a95dbba96d19ea8e9da3cb7f3bcedce9197c5a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x5c0d4833dfa2adf43dbcc4509440c945cb2e6339",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x5eb4c16272a14e11232ab00ebe9498f65911f00f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x6218158b5df8b532b21d402d6745109c072d91f8",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x6431ce0d14763888e3c1fd2d8aee1dd63867901c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x662a23070b3862657572497f0323f9e11ac8b907",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x66717045858d9f598e2ebd046bf42a0b1063c0fa",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x6836f1db09ebda8e59bbfb05c239f6e56507fa3b",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x6bcdde9b580276303cbac2aa92d114ed398172ec",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x7278a9330aef9b243f407d4a237fee2616cca867",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x732d8af93e496ffdb34df08f7e68cca0b7ac8129",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x75b1af7b9bfdf04015f5acfbe54b2869d85d6fb2",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x77b539393bce3dfb3c01c1d3e1f0ff72a4f40522",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x79ac6f77f4815409c992dff14b2fb15469e35d39",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x79c1c812efaa73d83ac97293dba7baa98f0ef899",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x9b73f3f80367338d18e956e7fe9c989fd95d7e9d",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),analytics_bot(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xb7071e0cdb6b64035c896022dc7cbe82d9d0cf4d",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),ai_agent(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x7f50386667476d19348371df3999f0aab9d207ee",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x80f5b2f80d563fbad4b062414a6d92e6cf0c60a5",
+      "confidence": 0.7,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x813dc2fba0386c396df284229478d5b5fb33def7",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x851afbe120c68fc6865b3d48f0f0b90761f8c917",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x85cd8f10289f1987acf12eab92f83408fc7f2dc9",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x87d6824a8a7f55498c8588f66a5be99bba50478b",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x88fd4d4b43fa4fd03b152b5dc34db80f348070c0",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x8904df3de6dfee6a7c8cc38619d2f17806213cee",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),ai_agent(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x8a402861f8743cb6e1c4f609746d69f5b7bec310",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x8b2acf937ddda9724ae742cc37d26b5cb763721d",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x8bd8e9256d89a1d3d3b9f9170af5b0e9b1b444ab",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xb46fc1cb99e8cb3afd259afcbd7091123754b59e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x943e7cf12a7c2a3c88f54fde013f754f506d4f1d",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x970594d0d870567376f237bb94183a78d0ca8ee6",
+      "confidence": 0.7,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x97150fd9d627ee3b36993c4ceee559bd80637e84",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x98dc6d7e2bb97bb183b06babc8072a77a44dba79",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x9c38b55f9a9aba91bbcedeb12bf4428f47a6a0b8",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x9cde59eb5b67c3b6a6e629066f4f806933905539",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x9d51f0425150fe94d236af259735dea37137d7a8",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xa372e50a7a679c993b001b5c6ed91192756d432a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xa4dc3cb9b25fb4e49cc9b788a7aec81ec5fae390",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xa5a3eb9521c05345d647afe38d20fa5e5fce27fa",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xa7827b2e128776800f9fd0a73e67d28df7b5f356",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xa7b7646045cbac71da28803d94c72f282a28ac11",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xa7d0eb508dbbd434545d8bb3574fdb827a615aee",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xa84e77ae59bb6bb986efc84a1e8334b90bc23c15",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xa85f4a77714431c4583f8add0bc6bd90f6ce2cb0",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xa915494b15860916355a43a63073c0c4cf4b904c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xcf93dbe86553c8cce5888afb4f69ed9208f3a9fd",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),suspected_wash(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xdc19af4840a5f6b8e33955c7458c4bbf503d1249",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),ai_agent(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xab89c6f10bdf790226dbf612a80786476064f947",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xac2192b9c410c254510911ba594511d6371afab9",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xac38b418114ca1f24bdd946f4308e254450584ec",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xac451dd067f0f246fe59ea4a0707f1c99f11342b",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xaf8f2a6ac7ff4d39c2d5cb75076402a90c96cad8",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xaf950be86c14e640c507baf1b7e82f1b555717ff",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xb153f294c2064e32d81f6d2f9e970ffbe993ec9c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xb2da18871a34161c354ffbc45d29efacdc7b9313",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xb37bf0ba06415297257801852cefbcbe4a984751",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xb4749b1986ae95333b8ee5c6d7e746c8b6cc55d2",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xb543846a9ab98d9a52d8493897775b2f4a36e352",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xb956a07a37fc31f840940f2daa35d8c98fffce85",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xb9dd1f326126c8a76b1c589fa09977be01100635",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xba504f1de83c9524159b1d63d8be15dddc9bf83b",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xba9b56b764b3223ad6b44c7538cf023870528c01",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xbc9889d135ec8c49cbf67110f3efc4ac04b8baf7",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xbca2c2a0114b2da6ec1a571f5df019d3fdc7c5ed",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xbf4bcd9d07feba9579bca93b69cdf7deb563b8f5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xc12141963984bae9ca33d048558760a744db75e5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xc1259b35194036720bca0079a402e1f25dfd75e5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xc3e93c27800b3370986e626ce3c4354a0b0ed5a8",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xbf397ce4aec767420a27f6db5029ff988578d27f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "no_tx_in_window",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xc5c8d5b0ecc5bd5075ab7f0ff39b2bdb4e613564",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xc78dd2816f7e46bf621ebb3711761d20b9185d11",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xc8a1a2fd79c666db3f8c34a5f1da5436039fe398",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xc93f84490fd4f0dbbb1899313d7facca7ce0e081",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xc9a22c3a7f82cfbce4c6783ca560960da38d0948",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xc9c7b38C0942914fC8EA12063BC92dcd3b581670",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xc9f07ac1ed2df3da6b85984cbdf5e1660d03dddf",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xcbf3c176c21592324fc04a54abdc24e1c43a5c80",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xce0ac768e8b82d1f1c9d850bbf52d9a4ae5bc57d",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xcf53b2fbbf4ef8bef16de5d2ea0beb508201454f",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xcf6b567a4296d5bc9cd9b6e75ce326f7ee56f33a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xcfc8510999d56f644dce76e54ef3823f27be3caf",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xd16a7b1453a7432ce75d9fe4f12b06a352484272",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xd1ad436d6f92ea0519dbbef5c2aca7306ff4fdf5",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xd333bbce7609df5f13d3722f32d52b649ecf7ae2",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xd38a5307ca677b2d0cd766d400d48e3f2984eb0a",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(76%),organic_user(24%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xd3b5958e453ff9bb3f46fd2e60b24d916ed3a95f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xd55ad1a8cffc31edc2d646f49e5a4ce89ff49b61",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xd5b759e13dc8f54f3562e41939c75b72a2255f97",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xd74f2303a2eee74d38e10d16eabd7ba2c2fb1642",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xd955e0769f6c8772a8e06bbe921d2702e63c7371",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xdd060eea0451203e6f9238495b941e42cf7dd9e1",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xe21bb00d300a4df0b85b07254f404bdec5f4e060",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xe21c53aef0a1171c061b7b2796b27ccab8e99e41",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xe4854984b8c6cb90971e2cf281f895a3ce96cfd1",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xe577b874ee3ad00f5bb35839faf86ac1f48e93aa",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xe6fc06eb15ad7913b4388b9d6958902f48863d31",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xe82283a63fc4f43d9072e594eb3384abb7403a76",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xeb1510cfcd485838e140b4ca09382d508ff96d98",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xeb729fb299b48a9e8af71608dd068b1a3c867d6a",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xeb87873701e3a838527a435ada8f0a4f6963122f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xeea1972beec62cb6c5335ad076e2ede571d37ac3",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xf2feced48095e4172c9a311db75291e457e8da9f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xf317f9c7e3a2d69abdd67ba53c02930be204d9f2",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xf374d978a8a14d213344b221c10eda18b851b0b4",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xf4880839b4b05134006aaaa1763f463665d72455",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xf99cc185ded3a0d52a8b5b0cf9400f5c60ca3f9e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),analytics_bot(0%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xf556aad8433450054922c00b53c66f7ef2f85b37",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xf57fC601Ec32DC7fEaB6B838d14aF10faAE6D495",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xf8a542f24d4a67b24f100facab7026c02bf50776",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xf951941f6e0c911002cfb729f641b71221aa05b5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xf95946cc7a5187fc258ee6fc1a62cb34831605b5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xfba2d550b131c8da00508f03074d329df788ee4d",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0xff437423efd70c76a6c72bd041bb2d45ffc8b9cc",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(100%)",
+      "time": "2026-09-08T00:30:50.525287+00:00"
+    },
+    {
+      "buyer_address": "0x01c956c98b8e2938573affbf5897a6120d202816",
+      "confidence": 0.7,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%),organic_user(0%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x0103c9dabf46fd475bc50151385bdcd3e103684a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x01456e681f654b4597651b5436275757f891ae88",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),ai_agent(0%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x0232f7c608b9620bb37a47372e40fbb91739e8a2",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x035e837d5df78ac55b3ee4ca7c033ea12e1c5016",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x004a5375ae8a0c3c66676d49de51fc1dc7d537df",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x061f86b530c38517ee7718e2155bad52f4ce1031",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x0729f799b4ec931225c9f3311733b094dba5eb11",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x08827dc15f70db50039b869e409fcfa1e781ac62",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x0a283b0d8bfabaf51ca231ab5cb23c38541d4a91",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x0ba65488b50440f13f866ec5e1112e3cfb7d0dd6",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x0c43ad4ce0caebeffa56dd2d4861645a69021d4b",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x0cc8c760aae87da95b6bf7d5956e3422874e1c75",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x0f3125caf07b2f72ba5735f7d6956df707ac28a5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x113699604ab0d1dfb2cb10756c5b2bfaa5dadb51",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x127684d6c4ed82e68de515912b0b8265bb744fc9",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x137ae5e3c7ed176744226f67223de50ca3a19e5a",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x14b2e5e3c82f078bcfd78123c7c6205d154e3468",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x17dbf146e4d3d07bda4c1c38e435c0096bbe001c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x18f4d01449ed6af7446ea23f7df2fe199f8520de",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x1adc105005e09987fcac0b708373bbb3b1cee7f4",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x4a0bff202c7bdb3b49002fbd21ea8c821350f665",
+      "confidence": 0.7,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%),verifier(0%),organic_user(0%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x1caea1a4c053aa8fe6e30fa3ee5d6630e5ac9dc5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x1d0337d2062eb3e512e2fe55b2e7a73bee371306",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x1e18d65c5173bcf23b93755a7a298de41c045b52",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x1f1175fc220d9e97e5c2e7424fa217e35e25fd13",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x1fc33336a219d80e255a4cbbeaefad3f2c05d18e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x20e7593505bf4d34803c2cacc28d07fc2681d157",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x20fc2a894dd0370e91345c178046f88873c220d2",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x215200bd7e6973ad2d2927bdd3e04a61531f5629",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x22df9ec2745720c67f56dc2dc3e23e2c698b1eb4",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x236a2d73067ddc61692bea34721435a91db922d4",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x25d9e69b756d6823c15e5ff66ec54bf6c2ee5913",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x25fc3d3394ef9020bbf7a3f54080e09b57651ca7",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x26c44f63924b4bc66659a9776a3fc469e9a2b797",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x27c9cb17875bebadfbdaa71d8d671599848882d5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x28bbf5ed9102e82fb4e145cb7137b119c8e259c7",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+      "confidence": 0.7,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%),organic_user(0%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x29d7c6aeb4a87a30ece8c03b11ecd1ef8f93cd89",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xd671e5673a04601dd74df67610454447c4791d90",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x2a2d9a6e5d53d02cf5f7633b54b21b5326fdaf0d",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x2d03605bf324d1ecdbc1989e133c5bd4b6eb2c1a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x2d6719a3e2a464e196695006ca60884c10007c94",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x34f8878ae60edd48f0d6ce500654c407b7d6dd53",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x35d52112d8cc01a05cffa293d327a4f92a32a92a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x36ce1ecca1c076c260e1ed4e7a9528f674de7321",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x37bc7778ad8cc224cb47670544d32f7f7cc244e2",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x37e96dc7a7538f5a8a8a45b40bcd64eb37599b14",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x39d49cf7f6cd4a7c988aeceeee7804fc3a41c980",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x3a024d944625fda2de5a5be8146e75270d1d3c35",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x410b7a39ea803f54fcd5fba1da216dd423dc0625",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "no_tx_in_window",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x3b76434086947ca25968cbd6be726ca8580ed5e6",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x3c602fab4cb471696e1fe4b4f01c6e3247ce3484",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x3e091be65daf9f3fa6baf939dcfb2d335ad8e8af",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x42eec5681a93e72ab48d336a14ad39714e8744ee",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x43e131eaa17a622e0cc6ba696a22c83c262fa3bd",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x46eb245fef3bded8b9641e424df0f827395743d2",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x47ac0c68a9c5514f09555e88d772a03ad2465147",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x4b156ef53a220e66520a83bfec819e53b80c5923",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x4b5b9c670c7959995dae5e47b9885a110bca00a8",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x4d4cd7e2ff500483c1ea4b2cfa68e1cf41f93846",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x4dB7AAFbe797a39Cd6Cc4E7aa64d970F7F6E02B7",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x4db7aafbe797a39cd6cc4e7aa64d970f7f6e02b7",
+      "confidence": 0.7,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x4e1e495a43f41dcf68595a0cd07c6a7f75a3b1e6",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x5008f3b630891cce2012683359e4cdb485282d1b",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x50f80ff611a5455334e4822b7b797149554b036c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x51900ef146fda205af753d7da53490bec1d8e276",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x531d5c71c7cd051a4d14ec8afcb0c7d5788bcb25",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(52%),organic_user(48%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x7569b12f89d15ab97e9afcba76d74e47fd8f26e4",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%),organic_user(0%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x541a9214400981764b14caecbd7ee4b8e1e9dbc8",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x5576c00a4e7ed4ab9033c68636edf604a0abf154",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x55c191cb1d6e8fdaea205fa4fecb605ad8b933e6",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x56835fb93888925f572ba89c50cf6bcf3b2d24ca",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x573381bf4189bbbfa8714f7e0a87bfe35de1298b",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x590edfecf1d93caffcec5584af7744d316d0fc05",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x59dc3db2eee27158abec53361764b0cd24bf88d5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x5d3db14f930949f159dbafec1e6a0a955f7c099d",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x5dd0699ec5d15b5e026e7a78ee23ef2266e9919e",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x5f881ad4725070403913e76a5f49a8d4ca319574",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x60a9486d0e982a5c64702917e3da9916785b35ee",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x632eecfecff75b0dfa0fee500d517c2d3289a91a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x638bb25171701ffe645eb86103c7e591e4d5542d",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x68094be1cddefdfe04245a04feb7b4b741c20348",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x6bcdde9b580276303cbac2aa92d114ed398172ec",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x6cb43776c47fd8c02f2192177464da0bfb54dfe7",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x6e72526ff62886e55494d5cd9879c2671b946fa1",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x6ff7b9a03f91f286fb662cb76bcf3063614f6c18",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x70f1865f3e4de86a34c0af863f31444b0098f9f9",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x73db0033016cabdd86ff4676fd28717b3b6c584b",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x75480fd29a66c65c7f1215b42e5ace122540901c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x7b72be162849d76c6586d60da186a0840412ae1d",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x7b7ff44288fade4a1829aba2584dfceb952146f2",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x7bd9e3cac525f6c991964c2c214298ef19c280c6",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x7e2bdc8a27dcac036403729225baaf38047ac09d",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x7e9ed7b5adc3e7191eaa34a37f29e34b54f8a40a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x7ebd6cc8e06e4b87e5faa610bc6714bdff933078",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x7ef12be65ed6ec9d8a89c414662e2ac471154ae2",
+      "confidence": 0.7,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(99%),suspected_wash(1%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x7f165ac31afc86e58177c099492fa9b5f39281e8",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x80b13085c428a41679be7451af0609d4c751b348",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x81de4737f4c59e750ea63f9896c7bbd1af41f3bf",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xb46fc1cb99e8cb3afd259afcbd7091123754b59e",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(100%),organic_user(0%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x85c37ef978cf9f542e1f91a2b9e8f5aa0c4fa3e1",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x87494918f2975d95a0aa6e11ef907cb87a3dbc9c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x875e9268cb758ccecf6d68722ea20c8b55063f4e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xc47e2c704941820f40a6388cf0d1f7a4ea26e801",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),ai_agent(0%),analytics_bot(0%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x8d3618c007057222786a1b8adada680d9d8c9038",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x8f99aee2c229f5da6cd016a7ccb40226086c55f3",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x9045e4be2d0f9ed128eaac650bb44a4439377f56",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x91f17a0e69d61bb078506beee7323fa10f04f880",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xac4930607138a61462309ba67e7272d8d918aa1e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "no_tx_in_window",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xac49389f5f621d4fb59c214f03639edee2441a1e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "no_tx_in_window",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xac49fc8316297afacef196fa668104e677201a1e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "no_tx_in_window",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x93c9b66a03038a51068454bde65bcbda602ba6d5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x9403cf26de8431bd6cf0fceb3691a9af623c6cb2",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x94f7bc688412436682e5d8dccea362a20153216f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x97fe0fe167913650dacea5439183fcbcb09c4c57",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x9898f756824f116bc61dbe1f7432c67998c73bf9",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x9aa5213762ebea48286494580ba4d1725322b958",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x9ac60659ea5fb87aa38a6d615b220c426e0cdf2f",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xcf08882c65d2bc3a5939005e9988cb32ff64454f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x9c49666029e6878c84960a31b3c73bc966eb5dc7",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x9c6e29da83dfaa2ac1d0826998a27f970054a74b",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x9f6f3ea07f2fc0ca000b18a49c8ff92599a3090e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x9fb166868e98e40ec1c08271af2c6264dc9e2c45",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xa0291f414ff99308a8e3fcc2907829be7371dd94",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xa04e96a990cab43eeeb904dbd83ae39b1bcfba3f",
+      "confidence": 0.7,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xa0bb307ac50f5342e1d0805bb8444966c7af4a1d",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xa2e61ca9ca74a91c4c7c09d799a23bda417604b6",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xa5b3437b05ed853933c470a6d5f32f8ebca4181a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xa5e264a4288856af741bf2c8bb95cf41ad5b62b9",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xa63797635adb7d0264ed55c6f9e0aa119ed02447",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xa918881a1dd60737a632de0de615885c8566c7a6",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xa96b55390c773cfe7a1fae2352327d11e95d565f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xa9993bbc1b838411e293573484298bbd98d6a407",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xa9f311e9f4d6efc4c0dba725c6a28e8929b7f212",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xaaf899466bd1eaea2c27b3b6ad5a0118a2fcb029",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xacb4fdb4305aa2bc6e6fdaa1719f7f90743ac440",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xacb7a020eb388f0cc38de9634dd8e56e1ccac440",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xacfc3f340c9344a9bcdefd2c3b114e12004339f8",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xddc6cc3e4d11c1f3527b867c7dad4ed9869c33f7",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xb23fc28488f8dc631fe20f376b7c0a2917ef6ef1",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xf4ce008f2e22985078242f8240f940ff6d5ab064",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(100%),organic_user(0%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xb5a58cca20d44bf29547513b5f6e0589fdfd8abd",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xb78226fc84f02da1b69f5e10f595067e4f1987d1",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xbbe924aac55e122e9baf39b85ea60e559a4ba1cb",
+      "confidence": 0.65,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xbbeea156d4eb8272265f8d6cadb73698057ba1cb",
+      "confidence": 0.65,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xbbef96bbc6d60209418efef5c3ac2e5ec79ba1cb",
+      "confidence": 0.72,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xbbeff7fd4c7c0ab710bb90332eea0292636ba1cb",
+      "confidence": 0.72,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xbbf63c1730598b8beb079a1f80dcba400ff94b02",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xbd9d34a008645ca46baf142e2bf2c640d364f2c5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xbdf5c6617af899909f5449c331cac306aee9cf7b",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xbe29b9b357cc1e91c3b7dd0e27a2db8ece4d1333",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xc0b748099e692b0f0dd3abb3f30a0bd7ff508c44",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xc0d0ab1f57e48b89804baa8cd826763dd581dab0",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xc186a71f732dc485da1a66f292087f4f5651cee3",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xc234f190464c2060fe577da150e6957641f9e6f6",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xc2f1d7072438c89d8709c75d8c56241936e4fc04",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xc3027b6f3dcc41188727e85e6dc78a41c13dafb8",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xc58bb475ceeb02ed4dd8cee27e69e0e6db76777c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xc5fd0c1179562ab10800744655427bba5a9dcf38",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xc8658ab21b576363a46b369678fe111c387d17b6",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xc8c02598b8ba913db0cc6fabb664413da10fc67e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xc8f81598ef59cf1d2beef19f7f6f1991ac619883",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xcF98E5e2DBe0eabAd95e9df7c54400e94C1eFE7E",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xca1dda8a7a3231ffe5663f1712ee86b8a46107b3",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xca5c0158c05e01a4f8518da599764d547a405c77",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xca9e521d0230ce08bc57388d497566d7a8f917af",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xcb6aefb4415105908c1bbe5f3f2c04446747368e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xcdd67b34ae6fbc43ee6ac4a08e46609bd406d716",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xcf341f0fd05cebdb191a01c41a173e40e1aed34c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xcf98e5e2dbe0eabad95e9df7c54400e94c1efe7e",
+      "confidence": 0.9,
+      "label": "verifier",
+      "reason": "derived_from_pairs:verifier(100%),suspected_wash(0%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xcfde683b24e7de4dedf413e4baa2bafa23713e23",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xd2e5577884a94177104331af662b084c24ec078b",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xd6d89d171005cbe380cb0764be35a70f3d2cbdf6",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xd732c9f2f5ca4bd738f02cd6bbd558aaac83f841",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xda64eefe238283717d8ef0e2b8876b3a7643142f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xdaae96b30345b4671294ec84a781c43f9b8bc809",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xdb1f420907fd046412e7e7f682bb2271321f9c14",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xdb62930b2e3f9e3e1125be83d23fec830f68aef0",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xdbbacd4e436c89933ef75d711db3a96b2e61b58b",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xdc31ce746facbdd854e925f118aa56e35520fa95",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xddf44350ff7e0f5ea6bbf576158e0db2a0f8021e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xdfde9ebca4f97aa5ad25ef7bbcb44b7eba7888a6",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xe198bcb76462429b28c11d244176a6ea1b06fe3e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xe4504e6ff6f2974e2b83b3fc193538ddab36e330",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xe4854b5e1cd4925dabe95893bd2550623faf4885",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xe48e45f50a085d239049414d0984839355f4c6e8",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xe4c56621f9c229c278a8fa732a57934ad4111057",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xe6a25693e4a9de1ceaf3d9b24b5ec3db0138d6ab",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xe7d9a4ec7aec0e6952eaa4e82ce7c27460837a81",
+      "confidence": 0.7,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xe82283a63fc4f43d9072e594eb3384abb7403a76",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(86%),organic_user(14%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xe880a72a1e6766137a9ca5c7f034afd0efc1cfb5",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xe991ce9db40f98f3cf552ccec5199642f1dab2d2",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xeb5c6a7fac1257040803768f5abd4431aa5a2dc2",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xecbcbb000798d9b6be65ae253f018f02228162c0",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xed135eced08b26c05a2cef0cb6120d4b3ba23149",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xf17a4eaa502674a910397e7e6147337db69d16e1",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xf3ac5d25c610e5823b4f7fb0fbedf68de116b2f4",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xf4ae6161d88a0e0c6647903c8829c06dd8c706ad",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xf6c233e4e7c80e3a9c72aaf38f8b21e1e22abb2a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xf6c278b329df8aecfb9914b95eec0c6dc1d8bb2a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xf73673b6e3d62ef2e212338273b2d95f21802bfa",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xf7878596918eeb5a09620a2055719963b8c5aeff",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xf85edf68f0363c3888041f4831e49eb1baa7ecc6",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xfa652113f6e167a3b8e7f8567c8c9e312cfbc732",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xfb32c08966c5a68ad33936caade53557327174d7",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xfc0f6c13439957de266f7e3e0644686be2821c47",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0xfe627488467ff653d08442e42ac2ff3a034fe179",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "j5hqa35m8fzy3pbgwrumavgwmqhtee1pynx2yfkbnpr7",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-07T00:30:54.099921+00:00"
+    },
+    {
+      "buyer_address": "0x0060ec326f6b929a85726cff02ad4b2cc3844fab",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x01a178d97563bd02ce1adf793dbb7823772d9861",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x01aa479a6d4c3a5a2ac3eac5a3890f2f52121463",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x0209138af68fc6de77ea815019a1f2c80ef2a37f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x04f9a27a963b9f7ebfb004487593aa8c7e19a77f",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(82%),organic_user(18%),ai_agent(0%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x050baaba304a96b987a2ffc9f62e4129e5dff2bb",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x0555c693ac2f9a9cf5101b71720077faa330aca5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x067ddac7c7c542080e838a5bf35279edf2af9dfa",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x0681b78714604057c672687659b0635f13eed13f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x06c60a4d8f8f202f598791a37d3ff571a8e40db9",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x0e0fbc5905bfa3a3f26fd4c7458b1abf06defe15",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),analytics_bot(0%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x08c357d7dc23d805f6ed66abfc06bf41934d0159",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x08e4348891aca88fcdfa274258180e1cc73cbc59",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x14da4fceb35cae009f1ed5a6e72feca149595dbf",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(97%),organic_user(3%),analytics_bot(0%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x0966a79b155f74a74298e7e9620e024d37899fc7",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x09af223a249f5adbc1012397c8a1b143b88cf49c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x0a0af0dead18d31638648feaed759d6182eb0271",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x0ab8e863c5f39cda36207abd07c093b7df92fd2c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x0afc9df557a2e778325b8f626ee83933c2181bfd",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x0b4dd0c3da001fa146eed3f80b01860bef6b8a14",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x0c94d64f7fddfc56ba5541be3b4e876aef49118a",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x0e1ab0f887d844fe1a3dfe6798b4671f66ea24b4",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x0eefec32a706318b1ffe1ffc249e797d322f72a7",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x3ea043187c38a7f9a9645fe72101a5ab9f3f083c",
+      "confidence": 0.75,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%),organic_user(0%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x0f79c33760647c1e5b0aee23a84d780975d491f7",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x10963dfd8868e65e342d39fb2f144ec07135fb84",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x17bd66f835dabd99c9894ba747bee08663b0c3b1",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x19287c4bcd4cdc4ce5eb4405131a46828b2c0f2c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x1a34c6e7687ab586fe2b77b8c54bd2ed055451d0",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x1b2d294ab6ca449e34f946b86540cd342cf49100",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x1cea51c870fdaddc8c6e5b6c118bc14bcfdd2ced",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x1e16789365da02476b8197842846431863021571",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x5a56703f46be1459b9b2806968661b6bd7ce3dee",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),analytics_bot(0%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x17eb4c3f777c4c175393023cd717260707bb22be",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x1e663a3d91406a926c6c628de757eeeb1557c901",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x20a582ed6ad94e89311e22dc49fb277e03148bd5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x20fe1105dae7b9721b478504fe4a99f5f86de1d3",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x272b034e462258ecc826486a4e0f03e7f11cdb91",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),analytics_bot(0%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x2694781947c6b3159cf7cc43a02275f5d0000041",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x27AbCDdd44c4959aC729D080703e677f13A3248c",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x29b1b0ec0535d2c494bc88bdae2269e5b111475c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x294b4e2e543af7bd6291bed5db277ad069061f3b",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),analytics_bot(0%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x2a645fcd09e28decae0598eb21bb8035f97b8c94",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0xe40af8d6c95358470e61ffc40e9db414518f1780",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(100%),organic_user(0%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(97%),suspected_wash(3%),organic_user(0%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x2e121b65d5e9ce4de6ee11c2fd6cc5ababa48d8c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x2e3fdc079817cf037cdacb819e7237d3d430848f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x33469a2d63d6f95e891b8fd1fb7c8340851cb824",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0xc2257533004a4ef20dd9d5ecc72a8776f965d2eb",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%),organic_user(0%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x37b4519d1888583b428c8ca2c0371db4020e5ed5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x38311663cc8738a934cd14c2d6ac758d526d0a9b",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x35dcef6783de6348a4d3c1f24fb4bf53fc07e099",
+      "confidence": 0.8,
+      "label": "suspected_wash",
+      "reason": "derived_from_pairs:suspected_wash(60%),organic_user(40%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x3a241d707b1dbfcdfbd9969bcc7c49a9878d3af3",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x3eccad24794ca298d25378e9902a251322ea8749",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%),analytics_bot(0%),ai_agent(0%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x3bb0c466951ba5db27271de9cb78374de5e263f4",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x3d5c24f9861c9b3e51f49f4c5d17dad31d2d1265",
+      "confidence": 0.7,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x404018C829a4e5AC5F703D1eB0B942Ae7852017F",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x404018c829a4e5ac5f703d1eb0b942ae7852017f",
+      "confidence": 0.7,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x404a5035e61b88b12f807294bdeadcf6755f017f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x418d5a83b50b16adf821865255d7086e6fc3cb45",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x41c85f8762245a1e9c296234231c1e1307cc7e5c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x42076abfe0ef6af3463d692fdcd40feae31f24e0",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x42ac8e98409c1286328979004dc9d174edeb73ed",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x42bc7825851e0026bb7858c5b48fee65d2f4bb8f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x42dcc360a39e4e12a9a30ba1250ddc04bb281004",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x43b85735369f6e9369453e15f0879e1b52cfcf72",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x44e80c561311f37166de6cae5aab4f11dbce3f23",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x465503b6120741c4c3f0f62d72b76b695e0b442d",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x46c0eac41802404e7f209158ce776ec8498607d4",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x46c7f3cb48b7f8734ce72bc03ef20c75929607d4",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x4730193bd9d82a090bbf21fdb1e3660a0cf519ab",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x47a8a4639ce0036cc68293bf7921abf4cbafa332",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x4821c2b368ea2b59148250b5a62648a0b3b6e7f8",
+      "confidence": 0.75,
+      "label": "ai_agent",
+      "reason": "derived_from_pairs:ai_agent(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x485546351b2b9ba5984161f1b257ab9e2b7b581a",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x4979ac79fddbe9c9b61dd6672d813c7da59756c7",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x49b42512684088b4ef8337ff8e63d614850339eb",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x4de988e65a32a12487898c10bc63a88abea2e292",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x5015d7dc6419831e4ae6bee7a3feb297eb3fbcf7",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x502dd5c33c120f4403169eb1aae3d50606bae49d",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x525568c9ae5913fb5f1c12f362e0a6965049131f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x5267213b11ff266b057d7586dff60fd600c750e0",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x533160f6080e8dafd65e0944ae88e7e899e063ac",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x53ff0a3614db6eb660353d490e8a76ad28925c61",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0xad1a04e130b5975c21d2927161e4e2ce1dcc143e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x51e80c33ab4786e8f9b744301cbf4c16f93ded94",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "no_tx_in_window",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x5952b17527fa77dfc10b93e93ba80f9b8e9f21eb",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x59fd6c5bdb54eae2e96e35e8741e5a2794c75c2e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x5afa3ecdda973ff7de56857ac65648e35aad5999",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x5d0ee4b884680dacf08d5e62c95494d1fb36252d",
+      "confidence": 0.85,
+      "label": "self_test",
+      "reason": "derived_from_pairs:self_test(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x573381bf4189bbbfa8714f7e0a87bfe35de1298b",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x5dd0699ec5d15b5e026e7a78ee23ef2266e9919e",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x5f5195d747e798f38ffc8343fd5939a9aba76079",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x57707898e53837957dd54fefcb234ea8bf050e33",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x6171b8df61a6d2f507a8c6cbef55148bd11b1a67",
+      "confidence": 0.8,
+      "label": "developer",
+      "reason": "derived_from_pairs:developer(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x6244755f1e7c4fc7b4f9a28763fc08ccfe03be0c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x630da6d9b0ef8e2d12d4440b4cb36dbf3b731cb5",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x64acb005e8a27fdeaf25112fbcefe15dab970484",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x6503d99329978d9990bf5b2104e63cd207fb84b8",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x662a23070b3862657572497f0323f9e11ac8b907",
+      "confidence": 0.8,
+      "label": "suspected_wash",
+      "reason": "derived_from_pairs:suspected_wash(67%),organic_user(33%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x67c6bb2ccb7d0eceb2dafdb4675ff04a85c1051f",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    },
+    {
+      "buyer_address": "0x68fccad343cb29c6cb960c69b4b97df902263388",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-09-06T00:31:43.630276+00:00"
+    }
+  ],
+  "schema_version": "1.0",
+  "snapshot_date": "2026-09-08",
+  "snapshot_taken_at": "2026-09-08T04:02:12.762822+00:00"
+}
