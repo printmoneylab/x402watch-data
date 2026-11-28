@@ -1,0 +1,64 @@
+{
+  "label_distribution": [
+    {
+      "avg_confidence": 0.5,
+      "label": "organic_user",
+      "n_buyers": 47476
+    },
+    {
+      "avg_confidence": 1.0,
+      "label": "owner_test",
+      "n_buyers": 9
+    },
+    {
+      "avg_confidence": 0.8,
+      "label": "analytics_bot",
+      "n_buyers": 3
+    },
+    {
+      "avg_confidence": 0.8,
+      "label": "developer",
+      "n_buyers": 1
+    }
+  ],
+  "real_vs_wash_30d": {
+    "developer_volume_usdc": 0.354,
+    "real_volume_usdc": 0.777,
+    "total_tx": 429,
+    "total_volume_usdc": 1.435,
+    "wash_volume_usdc": 0.0
+  },
+  "recent_changes_7d": [
+    {
+      "buyer_address": "0x47e5499c44ecf8c78da82b9b64183df1e301a0b4",
+      "confidence": 0.8,
+      "label": "analytics_bot",
+      "reason": "derived_from_pairs:analytics_bot(100%),organic_user(0%)",
+      "time": "2026-11-27T00:32:03.490772+00:00"
+    },
+    {
+      "buyer_address": "0xe54bB381C683b9aE150f561778F0D7bDc1065876",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-11-26T00:31:15.734994+00:00"
+    },
+    {
+      "buyer_address": "0x37747fc7a4A53B70B554Ef0388F6220F212EE92c",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-11-23T00:31:40.911275+00:00"
+    },
+    {
+      "buyer_address": "0x9516Ac304BEb80Ab27DBA6586fD41337C50FAc48",
+      "confidence": 0.5,
+      "label": "organic_user",
+      "reason": "derived_from_pairs:organic_user(100%)",
+      "time": "2026-11-22T00:31:31.386780+00:00"
+    }
+  ],
+  "schema_version": "1.0",
+  "snapshot_date": "2026-11-28",
+  "snapshot_taken_at": "2026-11-28T04:04:03.021198+00:00"
+}
